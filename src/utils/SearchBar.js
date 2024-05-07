@@ -48,8 +48,8 @@ const SearchBar = () => {
                   numberOfLines={1}
                   className="text-text-900 w-80 truncate font-semibold"
                 >
-                  {book.volumeInfo.title} (
-                  {book.volumeInfo.publishedDate.split("-")[0]})
+                  {book?.volumeInfo?.title} (
+                  {book?.volumeInfo?.publishedDate?.split("-")[0]})
                 </Text>
                 <Text className="text-text-900 font-thin">
                   {book?.volumeInfo?.authors?.length > 1

@@ -5,13 +5,16 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme": "your-app-scheme",
     "ios": {
       "supportsTablet": true
     },
@@ -32,7 +35,8 @@
           "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
           "recordAudioAndroid": true
         }
-      ]
+      ],
+      "expo-router"
     ]
   }
 }
